@@ -1,0 +1,28 @@
+{
+  "env": {
+    "node": true,
+    "es6": true,
+    "jquery": true
+  },
+    "globals": {
+      "document": true,
+      "window": true,
+      "localStorage": true,
+      "FormData": true
+    },
+    "settings": {
+      "import/resolver": "webpack"
+    },
+    "parser": "babel-eslint",
+    "plugins": [
+      "react"
+    ],
+    "rules": {
+    "react/jsx-uses-react": 1,
+    "react/jsx-uses-vars": 1,
+    "arrow-body-style": ["error", "always"],
+    "class-methods-use-this": [2, {"exceptMethods": ["render"]}],
+    "no-console": 0
+    },
+    "extends": ["airbnb-base"]
+  }

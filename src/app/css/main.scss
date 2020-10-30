@@ -1,0 +1,28 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  font-family: Montserrat;
+  font-size: 14px;
+}
+
+.container-fluid {
+  height: 100vh;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 95%;
+}
+
+.loader, .noRowsFound {
+  position: relative;
+  top: 50%;
+  text-align: center;
+}
+
+.btn-plain {
+  border: 0;
+  background: none;
+  padding: 0;
+  &:focus {
+    outline: none;
+  }
+}
